@@ -34,7 +34,7 @@ function addBook(event) {
 
   addBookJson(book);
   alert("Book added!");
-  globalThis.location.href = "/pages/main.html";
+  globalThis.location.href = "/pages/Main/main.html";
   
 }
 

@@ -40,7 +40,7 @@ function logIn(event) {
 
   if (checkLogin(email, pass, remember)) {
     console.log("pass");
-    window.location.href = "../pages/main.html";
+    window.location.href = "../pages/Main/main.html";
   } else {
     // trigger invalidForm event
     $("#wrongLogin").dispatchEvent(new Event("invalid"));
